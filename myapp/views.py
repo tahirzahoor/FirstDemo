@@ -1407,3 +1407,5 @@ def scrape_top_news(request):
     driver.quit()
     print(news)
     return JsonResponse(news, safe=False)
+
+
